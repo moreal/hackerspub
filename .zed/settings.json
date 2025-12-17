@@ -64,6 +64,24 @@
         "!biome",
         "..."
       ]
+    },
+    "JSON": {
+      "formatter": [
+        {
+          "language_server": {
+            "name": "deno"
+          }
+        }
+      ]
+    },
+    "JSONC": {
+      "formatter": [
+        {
+          "language_server": {
+            "name": "deno"
+          }
+        }
+      ]
     }
   }
 }

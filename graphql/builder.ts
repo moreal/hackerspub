@@ -140,7 +140,7 @@ export const builder = new SchemaBuilder<PothosTypes>({
       const maxValue = result[`max${errorKind}`];
       const errorMessage =
         `Query exceeds ${errorKind} limit (${value} > ${maxValue})`;
-      console.log(errorMessage);
+      console.error(errorMessage);
       throw createGraphQLError(errorMessage);
     },
   },
